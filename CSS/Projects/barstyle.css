@@ -1,0 +1,22 @@
+#nav {
+    width: 800px;
+    height: 40px;
+    margin: 2px;
+    padding: 5px;
+    background-color: grey;
+    display: flex;
+}
+.nav-title { 
+    color: white;
+    margin: 5px;
+    display: flex;
+    align-items: baseline;
+    justify-content: flex-start;
+
+}
+.nav-links {
+    color: white;
+    align-items: flex-end;
+    align-items: flex-end;
+    justify-content: space-between;
+}

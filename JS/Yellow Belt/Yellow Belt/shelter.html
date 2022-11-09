@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pet-Shelter</title> <link rel="stylesheet" href="shelter.css">
+</head>
+<body>
+    <!--Header-->
+    <div class="nav">
+        <div class="nav_container">
+            <div class="nav_top">
+                <div class="top_left">
+                    <img src="./heart-light.png" alt="Heart" width="50" height="50">
+                    <h1 class="title">Pet Shelter</h1>
+                </div>
+                <ul class="links">
+                    <li><a href="#">Find A Pet</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><button class="donate" onclick="hide(this)">Donate</button></li>
+                </ul>
+            </div>
+            <div class="nav_btm">
+                <div class="btm-left">
+                    <p>I'm looking for a...</p>
+                    <img src="./paw-light.png" alt="paw" width="32" height="32">
+                    <select name="pet select" class="pet" onchange="message()">
+                        <option>Any pet</option>
+                        <option onclick="message1()">Dog</option>
+                        <option onchange="message2()">Cat</option>
+                    </select>
+                </div>
+                <div class="btm_middle">
+                    <p>in or near...</p>
+                    <img src="./pin-light.png" alt="pin" width="32" height="32">
+                    <textarea name="location" cols="20" rows="1" placeholder="City or Zip Code"></textarea>
+                </div>
+                <div class="find">
+                    <button class="find_btn">Find your new best friend</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="shelter.js"></script>
+    <!--Main Body-->
+    <div class="container">
+        <div class="pepper">
+            <div class="inner">
+                <img src="./pepper.jpg" alt="pepper" width="200" height="200">
+            </div>
+            <div class="pepper_bio">
+                <div class="name">
+                    <h1>Pepper</h1>
+                </div>
+                <h3>Pepper is a slightly shy grey tabby, but she<br>
+                really loves showing her human affection</h3>
+            </div>
+            <div class="likes">
+                <span id="post-1">3 petting(s) </span>
+                <div>
+                    <button class="like-btn" onclick="like(0)">Pet Pepper</button>
+                </div>
+            </div>
+        </div>
+        <div class="bruce">
+            <div class="inner">
+                <img src="./bruce.jpg" alt="bruce" width="200" height="200">
+            </div>
+            <div class="bruce_bio">
+                <div class="name">
+                    <h1>Bruce</h1>
+                </div>
+                <h3>Bruce is a loyal companion. He loves long <br>
+                walks and cold weather.</h3>
+            </div>
+            <div class="likes">
+                <span id="post-2">5 petting(s) </span>
+                <div>
+                    <button class="like-btn" onclick="like(1)">Pet Bruce</button>
+                </div>
+            </div>
+        </div>
+        <div class="oscar">
+            <div class="inner">
+                <img src="./oscar.jpg" alt="oscar" width="200" height="200">
+            </div>
+            <div class="oscar_bio">
+                <div class="name">
+                    <h1>Oscar</h1>
+                </div>
+                <h3>Oscar is bright, energetic and friendly. He is<br>
+                looking for a good home</h3>
+            </div>
+            <div class="likes">
+                <span id="post-3">8 petting(s) </span>
+                <div>
+                    <button class="like-btn" onclick="like(2)">Pet Oscar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="shelter.js"></script>
+</body>
+</html>

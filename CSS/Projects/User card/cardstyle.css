@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+#container {
+    height: 325px;
+    width: 700px;
+    margin: 50px;
+    background-color: white;
+    padding: 40px;
+    border-color: gray;
+    border-style: solid;
+}
+.headline {
+    height: 100px;
+    width: 700px;
+    background-color: darkcyan;
+    color: #17a2b8;
+}
+.icon {
+
+}
+h1 {
+    font-family: fantasy;
+}
+.location {
+    font-size: larger;
+    font-family: fantasy;
+}
+.bio {
+    font-family: fantasy
+}
+.links {
+    justify-content: space-between;
+}

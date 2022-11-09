@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: white;
+}
+.banner {
+    background-color: black;
+    width: 1250px;
+}
+h1 {
+    color: white;
+}
+.profile {
+    margin-left: 50px;
+}
+.navigation {
+    color: white;
+    width: 800px;
+    height: 90px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.links {
+    width: 50%;
+    color: white;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-decoration: none;
+}
+.button {
+    height: 40px;
+    width: 80px;
+    background-color: dodgerblue ;
+    color: white;
+}
+.container {
+    width: 1000px;
+    margin: 0 auto;
+}
+.row {
+    display: flex;
+}
+.column-1, .column-2 {
+    margin: 10px;
+    padding: 10px;
+}
+.column-2 {
+    width: 30%;
+    flex: 2;
+}
+.flex-container {
+    width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.user-card {
+    width: 100%;
+    background-color: white;
+    border: 2px solid grey;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.card-header {
+    background-color: darkturquoise;
+    height: 125px;
+    margin-bottom: 50px;
+}
+
+.card-body {
+    padding: 20px;
+}
+.card-body h1, 
+.card-body h2,
+.card-body h3,
+.card-body p {
+    margin: 20px 0px;
+}
+.user-circle {
+    border-radius: 50%;
+    height: 140px;
+    padding: 5px;
+    margin-top: 50px;
+    margin-left: 20px;
+}
+.card {
+    background-color: white;
+    border: 2px solid gray;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    overflow: hidden;
+}
+.header {
+    width: 100%;
+    background-color: rgb(37, 35, 35);
+    padding: 10px;
+    color: white;
+}
+.body h2,
+.body h3 {
+    margin: 20px 0px;
+}
+.body {
+    padding: 20px;
+}
+
+
+.users {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+.left, .right {
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    padding: 5px;
+    margin: 3px;
+    justify-content: space-between
+}
+.footer {
+    padding: 15px;
+    border-top: 2px solid gray;
+}
